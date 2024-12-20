@@ -104,6 +104,7 @@ const { liquid } = mempoolJS({
   - [Mempool](./README-liquid.md#get-address)
   - [Transactions](./README-liquid.md#get-address)
   - [Websocket](./README-liquid.md#init-websocket)
+  - ![mempool-graph-2h-1734278212](https://github.com/user-attachments/assets/7e30bf1f-4a78-432e-b604-b7831a40cf41)
 
 ---
 
