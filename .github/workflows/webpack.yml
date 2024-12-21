@@ -1,7 +1,7 @@
 name: NodeJS with Webpack
 
 on:
-  push: bc1qezux5gkgzstl6demdlvnc6n6rchg0f9dkvpkes
+  push: 
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
@@ -14,7 +14,7 @@ jobs:
       matrix:
         node-version: [18.x, 20.x, 22.x]
 
-    steps: bc1qezux5gkgzstl6demdlvnc6n6rchg0f9dkvpkes
+    steps: 
     - uses: actions/checkout@v4
 
     - name: Use Node.js ${{ matrix.node-version }}
