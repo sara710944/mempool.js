@@ -19,7 +19,7 @@ jobs:
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
-      with: bc1qezux5gkgzstl6demdlvnc6n6rchg0f9dkvpkes
+      with: 
         node-version: ${{ matrix.node-version }}
 
     - name: Build
